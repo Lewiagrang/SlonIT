@@ -8,7 +8,7 @@ const sumOfNumbers = (obj) => {
     return accumulator
 }
 
-const extraCreditQuestion = () => {
+const extraCreditQuestion = (obj) => {
     const result = []
     const arrNumbers = [] 
     for(let prop in obj){
